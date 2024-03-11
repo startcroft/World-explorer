@@ -1,0 +1,47 @@
+.main__worldExplorer {
+    background-color: #202020;
+    width: 100vw;
+    padding: 6.25rem;
+    display: flex;
+    gap: 1.875rem;
+    flex-wrap: wrap;
+}
+
+.card__main {
+    width: 18.75rem;
+    background-color: rgb(20, 20, 20);
+    color: #E0E0E0;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1.25rem;
+    -webkit-box-shadow: 10px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 7px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.image__imgContainer {
+    width: 18.75rem;
+    height: 11.25rem;
+    border-radius: 1.25rem 1.25rem 0 0;
+}
+
+.info__card {
+    padding: .9375rem;
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+}
+
+.h3__info--card {
+    color: white;
+    margin-bottom: .625rem;
+    font-size: 1.875rem;
+}
+
+.flagContainer__info--card {
+    display: flex;
+    gap: .9375rem;
+}
+
+.img__flagContainer {
+    width: 3.125rem;
+}
